@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dein Name</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      background: white;
+      color: #111;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 80px 24px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      font-size: 52px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      letter-spacing: -2px;
+    }
+
+    .intro {
+      font-size: 20px;
+      color: #555;
+      max-width: 600px;
+      margin-bottom: 80px;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+      margin-bottom: 80px;
+    }
+
+    .photos img {
+      width: 100%;
+      display: block;
+      border-radius: 4px;
+    }
+
+    .contact {
+      font-size: 18px;
+    }
+
+    .contact a {
+      color: black;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .contact a:hover {
+      opacity: 0.5;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 48px 20px;
+      }
+
+      h1 {
+        font-size: 38px;
+      }
+
+      .intro {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Dein Name</h1>
+
+  <p class="intro">
+    Kurzer Vorstellungstext über dich.
+    Zum Beispiel was du machst,
+    worauf du dich fokussierst
+    oder wie man dich kontaktieren kann.
+  </p>
+
+  <section class="photos">
+
+    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?q=80&w=1200&auto=format&fit=crop" alt="Foto">
+
+    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop" alt="Foto">
+
+    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop" alt="Foto">
+
+  </section>
+
+  <div class="contact">
+    <a href="mailto:mail@deinedomain.de">Mail</a>
+    <a href="#">Instagram</a>
+    <a href="#">LinkedIn</a>
+  </div>
+
+</body>
+</html>
